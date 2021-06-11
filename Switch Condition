@@ -1,0 +1,18 @@
+game= prompt("What is your favourite game?");
+
+switch ( game ) {
+  case "Mobile Legend":
+    console.log("Boycott this Game, now. It's developed by China company, Moonton.");
+    break;
+  case "PUBG Mobile":
+    console.log("Boycott this Game, now. It's developed by China company, Tencent.");
+    break;
+  case "Wild Rift":
+    console.log("You can play this Game. It's developed by American company, Riot.");
+    break;
+  case "PUBG: New State":
+    console.log("You can play this Game. It's developed by Korean company, Krafton.");
+    break;
+  default:
+    console.log("Unknown Game");
+}
